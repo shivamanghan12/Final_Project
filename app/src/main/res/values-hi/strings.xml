@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Aakri Pariyojna</string>
+    <string name="help">Madad</string>
+    <string name="search">Dhoondna</string>
+    <string name="arriving">Aa rha hai</string>
+    <string name="departing">Ja rha hai</string>
+    <string name="sFlights">Saheji Gyi Flights</string>
+    <string name="save">Bachana</string>
+    <string name="details">Vistar</string>
+    <string name="delete">Hatana</string>
+    <string name="enter_airport_code">Hawai adde ka kod bharein</string>
+    <string name="info">Jankari</string>
+    <string name="author_name">Ashish Kumar</string>
+    <string name="instruction">#Jankari prapt krne ke liye kripya Hawai adde ka kod bharein\n\n#Jankari hawai adde ke kod,Uski stithi aur hawai jahaz ki sankhya bataige\n#Adhik jankar ke liye usi prshth par diye gye batan ko dabayein\n\n#Hawai jahaj ki jankari ko bachaiye rkhne k liye niche diye gye batan ki dabayein\n#Pehle se bachaiygai hawai jahaj ki jankari k liye upar diye gye chitr ko dabaye\n\n#Bachai huye jankari ko hatane k liye niche diye gye batan ko dabaye. </string>
+    <string name="author">Lekhak</string>
+    <string name="ativity_v">Gatividhi Sanskaran</string>
+    <string name="inst">Anudesh</string>
+    <string name="confirm_save">Safaltapoorvak bachaya</string>
+    <string name="confirm_delete">Safaltapoorvak hataya</string>
+    <string name="welcome">Udaan traiker mai aapka swagat hai</string>
+    <string name="snackbar_text">Namaste Upyogkartao</string>
+    <string name="location">Sathan</string>
+    <string name="speed">Gati</string>
+    <string name="altitude">Unchai</string>
+    <string name="status">Stithi</string>
+    <string name="latitude">Akshaansh</string>
+    <string name="longitude">Deshaantar</string>
+
+
+
+</resources>

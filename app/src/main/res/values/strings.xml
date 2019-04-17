@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="help">Help</string>
+    <string name="search">Search</string>
+    <string name="arriving">Arriving</string>
+    <string name="departing">Departing</string>
+    <string name="sFlights">Saved Flights</string>
+    <string name="save">Save</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="enter_airport_code">Enter airport code</string>
+    <string name="info">INFO</string>
+    <string name="author_name">Ashish Kumar</string>
+    <string name="instruction">#Enter airport code to search for arriving or departing flights\n\n#Results will print out just below the search bar comprised of Airport code,either it is departing or arriving and its flight number\n#More details are shown by clicking on particular flight number\n\n#Flight can be saved by pressing the save button on the same page\n#In order to view saved flights,click on the bookmark icon in the toolbar\n\n#In order to delete flight from saved flights,press delete button. </string>
+    <string name="author">Author</string>
+    <string name="ativity_v">Activity version</string>
+    <string name="inst">Instructions</string>
+    <string name="confirm_save">Saved successfully</string>
+    <string name="confirm_delete">Deleted successfully</string>
+    <string name="welcome">Welcome to Flight Tracker</string>
+    <string name="snackbar_text">Hello Users</string>
+    <string name="location">Location</string>
+    <string name="speed">Speed</string>
+    <string name="altitude">Altitude</string>
+    <string name="status">Status</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+
+</resources>

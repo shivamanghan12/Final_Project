@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btn_new_york_articles"
+            android:layout_width="175dp"
+            android:layout_height="48dip"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="New York Articles"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_plane"
+            android:layout_width="175dp"
+            android:layout_height="48dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="Flight Status Tracker"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_news_feed"
+            android:layout_width="175dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="News Feed"
+
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_webster"
+            android:layout_width="175dp"
+            android:layout_height="48dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimary"
+            android:text="Webster Dictionary"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
