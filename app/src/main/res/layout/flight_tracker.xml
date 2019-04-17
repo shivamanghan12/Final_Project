@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        />
+
+
+
+       <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/etext_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:hint="@string/enter_airport_code"
+        android:inputType=""
+        />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etext_search"
+        android:text="@string/search" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_button"
+        android:layout_centerVertical="true"
+
+        android:layout_marginTop="2dp"
+        android:visibility="invisible" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tView_arriving"-->
+        <!--android:inputType="text"-->
+        <!--android:layout_width="201dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/progressBar"-->
+        <!--android:text="@string/arriving"-->
+        <!--android:textAlignment="center" />-->
+
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_below="@+id/progressBar"
+
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<ListView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/listView_extra"-->
+    <!--android:layout_above="@+id/bSave"-->
+    <!--/>-->
+
+    <TextView
+        android:id="@+id/tView_saved_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:text="@string/details"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tView_saved_location"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_saved_details" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tView_extra_lon"-->
+    <!--android:textSize="20sp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/tView_extra_lat" />-->
+
+    <TextView
+        android:id="@+id/tView_saved_speed"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_saved_location" />
+
+    <TextView
+        android:id="@+id/tView_saved_altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_saved_speed"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tView_saved_status"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_saved_altitude" />
+    <Button
+        android:id="@+id/bDelete"
+        android:layout_width="match_parent"
+        android:onClick="displayToastMsg"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/delete" />
+
+</RelativeLayout>

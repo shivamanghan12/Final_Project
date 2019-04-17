@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<ListView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/listView_extra"-->
+    <!--android:layout_above="@+id/bSave"-->
+    <!--/>-->
+
+    <TextView
+        android:id="@+id/tView_extra_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:text="@string/details"
+        android:textAlignment="center"
+        android:textColor="@color/inverted"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tView_extra_location"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_extra_details" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tView_extra_lon"-->
+        <!--android:textSize="20sp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/tView_extra_lat" />-->
+
+    <TextView
+        android:id="@+id/tView_extra_speed"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_extra_location" />
+
+    <TextView
+        android:id="@+id/tView_extra_altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_extra_speed"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tView_extra_status"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tView_extra_altitude" />
+    <Button
+        android:id="@+id/bSave"
+        android:onClick="displayToastMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save" />
+
+</RelativeLayout>

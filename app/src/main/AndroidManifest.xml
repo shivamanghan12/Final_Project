@@ -25,6 +25,10 @@
         </activity>
         <activity android:name="com.android.newsfeedapp.activity.WebsterActivity">
         </activity>
+        <activity android:name=".saved_details" />
+        <activity android:name=".SavedFlights" />
+        <activity android:name=".ExtraStuff" />
+        <activity android:name=".activity.flight_tracker" />
     </application>
 
 </manifest>
